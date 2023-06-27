@@ -57,9 +57,8 @@ datasummary<-datasummary(growth+rgdp60~treat*(Mean+Median+SD+Min+Max),data=Growt
 datasummary(growth+rgdp60~treat*(Mean+Median+SD+Min+Max),data=GrowthSW)
 ```
 
-**Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
-
-As can be seen in the table, the mean and median of countries that have not had any revolutions in this time period is higher than the mean and median of the countries that have had revolutions. This means that not having any revolutions is on average better for the growth of a country. 
+**Designated place**:
+As can be seen in the table, the mean and median of countries that have not had any revolutions in this time period is higher than the mean and median of the countries that have had revolutions. This means that not having any revolutions is on average better for the growth of a country. The median growth of the country that has had no revolutions is higher than the country that has had revolutions, likely because revolutions are often times set backs in an economy as resources are used to fight governments or unfair rules, meaning most of the economy stops as people focus on other things which takes a while for it to recover.
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
 
